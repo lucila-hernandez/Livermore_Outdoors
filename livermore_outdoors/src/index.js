@@ -1,10 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import App from './App';
-import OutdoorsList from './OutdoorsList';
-import About from './About';
-import OutdoorsDetails from './OutdoorsDetails'; 
+import App from './components/App';
+import OutdoorsList from './components/OutdoorsList/OutdoorsList';
+import About from './components/About/About';
+import OutdoorsDetails from './components/OutdoorsDetails/OutdoorsDetails'; 
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
