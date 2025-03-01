@@ -1,9 +1,44 @@
+/* Make the root element a reference for child positioning */
 .OutdoorsSpace {
-    width: 100%;
-    text-align: center;
-  }
-  
-  .OutdoorsSpace > img {
-    width: 100%;
-    height: auto;
-  }
+  position: relative; /* Relative positioning for children */
+  width: 100%;
+  text-align: center;
+}
+
+.OutdoorsSpace img {
+  width: 100%;
+  height: 300px; /* or another fixed height */
+  object-fit: cover; 
+}
+
+/* Style the title inside the Link component */
+.OutdoorsSpace .OutdoorsSpace-title {
+  text-decoration: none;
+  color: #000;
+}
+
+.OutdoorsSpace h2 {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  font-weight: lighter;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Style for the address and hours */
+.OutdoorsSpace .OutdoorsSpace-info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+}
+
+.OutdoorsSpace .OutdoorsSpace-info div {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  background-color: rgba(255, 255, 255, 0.9);
+}
