@@ -3,15 +3,25 @@
 import React from 'react';
 import OutdoorsSpace from '../OutdoorsSpace/OutdoorsSpace';
 import './OutdoorsList.css';
-import data from '../../sfpopos-data.json'
+import data from '../../livermore-data.js'
+import { useState } from 'react'
+
 
 function OutdoorsList() {
 
-  const spaces = data.map(({ title, address, images, hours }, i) => {
-    return (
+  const [ query, setQuery ] = useState('')
+
+  const spaces = data
+    .filter(obj => 
+      obj.title.toLowerCase().includes(query.toLowerCase()) || 
+      obj.address.toLowerCase().includes(query.toLowerCase())
+    )
+    .map((obj) => {
+      const { id, title, address, images, hours } = obj;    
+      return (
       <OutdoorsSpace
-        id={i}
-        key={title}
+        id={id}
+        key={`${title}-${id}`}
         name={title}
         address={address}
         image={images[0]}
@@ -22,7 +32,15 @@ function OutdoorsList() {
 
   return (
     <div className="OutdoorsList">
-      { spaces }
+      <form>
+        <input
+          value={query}
+          placeholder="search"
+          onChange={(e) => setQuery(e.target.value)}
+        />
+        <button type="submit">Submit</button>
+      </form>
+      {spaces}
     </div>
   )
 }

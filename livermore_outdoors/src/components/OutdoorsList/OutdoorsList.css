@@ -7,6 +7,28 @@
   padding: 2em;
 }
 
+.OutdoorsList form {
+  display: flex;
+  align-items: flex-start;
+}
+
+.OutdoorsList form input, .OutdoorsList form button {
+  padding: 1em;
+  margin: 0;
+  border: 1px solid;
+  font-size: 1rem;
+}
+
+.OutdoorsList form input {
+  flex: 1;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.OutdoorsList form button {
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
 
 /* Smaller screens and tablets */
 @media only screen and (max-width: 960px) {
