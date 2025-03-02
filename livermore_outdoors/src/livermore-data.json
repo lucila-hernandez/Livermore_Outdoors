@@ -12,9 +12,9 @@
           "del_valle_regional_park.jpg"
        ],
        "features":[
-          "hiking, ",
-          "boating, ",
-          "camping, ",
+          "hiking",
+          "boating",
+          "camping",
           "picnic"
        ]
     },
@@ -31,9 +31,9 @@
           "sycamore_grove_park.jpeg"
        ],
        "features":[
-          "hiking, ",
-          "biking, ",
-          "horseback riding, ",
+          "hiking",
+          "biking",
+          "horseback riding",
           "picnic"
        ]
     },
@@ -50,9 +50,9 @@
           "brushy_peak.jpeg"
        ],
        "features":[
-          "hicking, ",
-          "wildlife, ",
-          "scenic views "
+          "hiking",
+          "wildlife",
+          "scenic views"
        ]
     },
     {
@@ -68,10 +68,10 @@
           "morgan_territory.jpeg"
        ],
        "features":[
-          "hiking, ",
-          "horseback riding, ",
-          "wildlife, ",
-          "scenic views "
+          "hiking",
+          "horseback riding",
+          "wildlife",
+          "scenic views"
        ]
     },
     {
@@ -89,8 +89,8 @@
        "opens":"10am",
        "closes":"5pm",
        "features":[
-          "nature walks, ",
-          "birdwatching, ",
+          "walking",
+          "birdwatching",
           "native plants"
        ]
     },
@@ -107,8 +107,8 @@
           "holdener_park.jpeg"
        ],
        "features":[
-          "hiking, ",
-          "scenic views "
+          "hiking",
+          "scenic views"
        ]
     },
     {
@@ -124,9 +124,9 @@
           "garaventa_wetlands.jpeg"
        ],
        "features":[
-          "walking trails, ",
-          "birdwatching, ",
-          "wildlife "
+          "walking",
+          "birdwatching",
+          "wildlife"
        ]
     },
     {
@@ -142,8 +142,8 @@
           "cayetano_park_trails.jpeg"
        ],
        "features":[
-          "hiking, ",
-          "scenic views "
+          "hiking",
+          "scenic views"
        ]
     }
   ]

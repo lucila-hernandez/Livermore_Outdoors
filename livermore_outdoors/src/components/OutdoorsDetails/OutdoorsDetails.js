@@ -2,6 +2,8 @@ import React from 'react'
 import { useParams } from 'react-router'
 import data from '../../livermore-data.js'
 import './OutdoorsDetails.css'
+import OutdoorsFeatureList from '../OutdoorsFeatureList/OutdoorsFeatureList'
+
 
 
 function OutdoorsDetails(props) {
@@ -19,8 +21,11 @@ function OutdoorsDetails(props) {
         <h1 className="OutdoorsDetails-title">{ title }</h1>
         <p className="OutdoorsDetails-desc">{ desc }</p>
         <p className="OutdoorsDetails-hours">{ hours }</p>
-        <p className="OutdoorsDetails-features">{ features }</p>
-        <p className="OutdoorsDetails-geo">{ geo.lat } { geo.lon }</p>
+
+        <OutdoorsFeatureList features={features} />
+
+        <p className="OutdoorsDetails-geo">{geo.lat} {geo.lon}</p>
+
       </div>
 
     </div>
