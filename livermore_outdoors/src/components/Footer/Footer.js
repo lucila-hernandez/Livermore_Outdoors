@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="Footer">
-      <p>Livermore Outdoors copyright 2019</p>
+      <p>Livermore Outdoors copyright 2025</p>
     </div>
   )
 }
