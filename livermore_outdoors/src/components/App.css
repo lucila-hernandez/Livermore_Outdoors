@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font: 1.2em sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.page-header,
+.page-footer {
+  padding: 60px;
+}
+
+.page-body {
+  padding: 60px;
+}
+

@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className="Footer">
+    <div className="Footer page-footer">
       <p>Livermore Outdoors copyright 2025</p>
     </div>
   )
