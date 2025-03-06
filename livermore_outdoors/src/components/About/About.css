@@ -1,0 +1,50 @@
+.About {
+    font-family: Arial, sans-serif;
+    padding: 2em;
+    background-color: #f4f4f4;
+  }
+  
+  .About-Header {
+    text-align: center;
+    background-color: rgb(97, 143, 29);
+    color: #fff;
+    padding: 2em 1em;
+    margin-bottom: 2em;
+  }
+  
+  .About-Header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+  }
+  
+  .About-Header p {
+    font-size: 1.2rem;
+  }
+  
+  .About-Content, .About-Explore {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .About-Content h2, .About-Explore h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
+  
+  .About-Explore .explore-button {
+    background-color: rgb(97, 143, 29);
+    color: white;
+    font-size: 1.2rem;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .About-Explore .explore-button:hover {
+    background-color: #7a9f3f;
+  }
+  
