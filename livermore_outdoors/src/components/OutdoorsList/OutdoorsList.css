@@ -1,15 +1,17 @@
 .OutdoorsList {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 1200px;
   margin: auto;
   padding: 2em;
+  gap: 0.5em;
 }
-
 .OutdoorsList form {
   display: flex;
-  align-items: flex-start;
+  justify-content: center; 
+  width: 100%;
+  margin-bottom: 1em; 
 }
 
 .OutdoorsList form input, .OutdoorsList form button {
