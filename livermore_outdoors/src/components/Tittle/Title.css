@@ -2,31 +2,38 @@
     box-sizing: border-box;
     width: 100%;
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
+    justify-content: space-between;
     align-items: center;
-    text-align: center; 
-    padding: 1em;
-    margin-bottom: 2em;
+    padding: 1em 2em;
     background-color: rgb(97, 143, 29);
     color: #fff;
 }
 
-.Title-Subtitle {
-    color: rgba(255, 255, 255, 0.75);
-    margin-top: 0.5em; 
-    text-align: center; 
+.Title-Left {
+    display: flex;
+    align-items: center;
+    gap: 1em;
 }
 
-.Title a {
-    display: inline-block;
-    padding: 0.5em 1em;
+.Title-Name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.Title-Nav {
+    display: flex;
+    gap: 1.5em;
+}
+
+.Title-Nav a {
     color: rgba(255, 255, 255, 0.835);
     font-weight: bold;
     text-decoration: none;
-  }
+    padding: 0.5em 1em;
+}
 
-.Title .nav-link-active {
-color: #fff;
-border-bottom: 2px solid;
+.nav-link-active {
+    color: #fff;
+    border-bottom: 2px solid;
 }
