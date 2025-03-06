@@ -6,7 +6,8 @@ function About() {
   return (
     <div className="About">
       <header className="About-Header">
-      <img src="/livermore_outdoors/images/logo.png" alt="Livermore Outdoors" className="About-Image" />
+        
+      <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="Livermore Outdoors" className="About-Image" />
       </header>
 
       <section className="About-Content">
