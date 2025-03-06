@@ -24,12 +24,12 @@ function OutdoorsDetails(props) {
         <img src={`${process.env.PUBLIC_URL}/images/${images[0]}`} alt={title} />
       </div>
 
-      {/* Map section added below the image */}
       <div className="OutdoorsDetails-mapSection">
+        <h2 className="OutdoorsDetails-mapHeader">Map</h2>
         <iframe
           title={`Map of ${title}`}
           src={mapsUrl}
-          width="100%"  // Make the map responsive
+          width="100%"  
           height="450"
           style={{ border: 0 }}
           allowFullScreen
